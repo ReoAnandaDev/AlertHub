@@ -1,0 +1,13 @@
+<!-- res/drawable/animation_placeholder.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFBB86FC" />  <!-- Warna latar belakang -->
+        </shape>
+    </item>
+    <item android:top="10dp" android:left="10dp" android:right="10dp" android:bottom="10dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />  <!-- Warna lingkaran di dalam -->
+        </shape>
+    </item>
+</layer-list>
